@@ -95,7 +95,7 @@ We appreciate the time and effort you put into your application. Please find bel
 {feedback}
 
 Best regards,
-Hiring Team
+Hiring Team.
 """
     
     return send_email(candidate_email, subject, body)

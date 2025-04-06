@@ -62,10 +62,10 @@ export default function Home() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-16">
         <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-16">
           <h1 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent mb-4 sm:mb-6">
-            Join Our Team
+            YourHR
           </h1>
           <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed px-4">
-            We're looking for talented individuals to help shape the future of technology. 
+            Our AI-powered resume analysis tool matches your skills and experience to our open positions.
             {jobs.length === 1 
               ? " Explore our current opening and take the next step in your career journey."
               : ` Explore our ${jobs.length} open positions and take the next step in your career journey.`
